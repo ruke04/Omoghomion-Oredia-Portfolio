@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruke Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home"><img src="img/ruke-logo0.JPG" alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item" id="Home_list"><a href="#home" class="nav__link" id="Home_list1">Home</a></li>
+                <li class="nav__item" id="Service_list"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item" id="About_list"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item" id="Skills_list"><a href="#skills" class="nav__link">My Skills</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Omoghomion Oredia</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Automation Software Tester</p>
+        <img src="img/Ruke-02.jpg" alt="an intro picture of Ruke" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Software Automation Testing</h3>
+                <p>I am a multi-skilled Manual and Automation software tester. I write my test codes with Java and Python and design and maintain automation frameworks such as Java cucumber, Robot framework (Data-driven, Keyword Driven and SeleniumLibrary).
+                    I have ample experience in Docker, Maven, Jenkins, and all phases of the Agile and Waterfall model.</p>
+            </div>
+            <!-- / service -->
+
+            <div class="service">
+                <h3>IT Service Desk</h3>
+                <p>Core services include on-site, end-user support via dispatch or scheduled support. Services include asset management and inventory control, PC support services including the installation of images, local applications and providing maintenance
+                    support (Break & Fix).
+                </p>
+            </div>
+            <!-- / service -->
+
+            <div class="service">
+                <h3>Network Suport Service</h3>
+                <p>Core services include on-site and remote support of client networks and data centres. Installation of network hardware and software, troubleshoot and repair faulty hardware and software, maintain network and system security, monitor network
+                    performance and suggest improvements to clients.</p>
+            </div>
+            <!-- / service -->
+        </div>
+        <!-- / services -->
+
+        <a href="#skills" class="btn">My Skills</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">QA Engineer based out of Helsinki </p>
+
+        <div class="about-me__body">
+            <p>I am a tech enthusiast who enjoys learning and following new technological development trends. I am passionate about software testing, and I like to test different applications to improve their quality and to continue improving my testing
+                skills. Over the years, I have executed test plans and scripts for a variety of websites using manual testing and automation testing tools.</p>
+            <p>I currently run my own IT company <b>RukeComs</b> in Finland where I proffer Software Automation Testing, IT Support, and Network Support Services to clients and end-users.</p>
+        </div>
+
+        <img src="img/Ruke-Helsinki.jpg" alt="Ruke in Helsinki" class="about-me__img">
+    </section>
+
+
+
+
+    <!-- My skills -->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">My Skills</h2>
+        <p class="section__subtitle section__subtitle--skills">A selection of some of my skills</p>
+
+        <div class="portfolio">
+
+            <!-- Portfolio item 01 -->
+            <a class="portfolio__item">
+                <img src="img/Atesting.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a class="portfolio__item">
+                <img src="img/MTesting.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a class="portfolio__item">
+                <img src="img/linux.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a class="portfolio__item">
+                <img src="img/Python.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:rukeoredia@gmail.com" class="footer__link">rukeoredia@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com/in/omoghomion-oredia">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/classic_ruke">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/ruke04">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Scroll to top button -->
+
+        <button onclick="topFunction()" id="scrollToTopBtn" title="Go to top">☝️</button>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
